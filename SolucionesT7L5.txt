@@ -1,21 +1,91 @@
 Ejercicios parecido al exámen 
 1.
+ 172.30.0.0/16 =>25 subredes y 1000 de equipos por subred
+crecimiento de 55 subredes.
+
+25-55=|30|(32) 2^5
+255.255.252.0
+
 2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10
-11.
+100 ordenadores de 10 subredes y 10 equipos.192.168.16.0/24
+2^4=16/    Total 1000 subredes y 1000 equipos.
+255.255.255.(00000000)/(11111111)
+
+3.e)255.255.224.0
+8 subredes de clase b 2500 host por subred
+2^3 =8 11100000.00000000
+255.255.224.0
+
+
+4.No hay ejercicio 4
+
+
+5. d) 172.16.63.51
+
+255.255.11100000.00000000(Porque es de clase b)
+·172.16.010
+       .010
+       .010
+       .001 
+
+6.a,c,d
+clase b=128.0...-191.255...
+·10011001=153
+·01011001=89(no)
+·10111001=185
+·11011001=217 (no)
+·10011111=159
+
+7.No hay ejercicio 
+8.b)128 subredes y 510 hosts (equipos)
+255.255.254.0= (8*1).(8*1).(11111110).(00000000)
+2^9=512(512-2(la primera y la ultima))=210 hosts
+2^7=128 subredes
+
+8-2.e)Ninguna de las respuestas es correcta
+255.255.255.254(11111110)
+2^7=128 subredes
+2^1=2 hosts 
+
+10.a)255.0.0.0
+red 10.1.1.0 clase a 
+    red.host.host.host 
+
+11.No hay ejercicio 11
 12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
+mascara de subred 255.255.255.240(11110000)
+IP 172.18.71(1000111).2(000000010)/21
+64(1000000)
+32(100000)
+172.18.71.0
+
+13.b)255z.255.252.0
+clase b dividida en 20 subredes + 30 prox años
+mascara para 800 host por subred?
+b 20+30=50 2^6-64 
+255.255.252(11111100).0(00000000)
+
+14.b)/21
+clase b dividida en 20 subredes + 4 en los prox años
+2000 host por subred
+20+4=24 2^5=30
+255(8*1).255(8*1).(5*1).(0*1)=21
+
+15.d)255.255.255.0
+·8
+·3
+·8+8=16
+·8+8+8=24
+
+16.d). dirección = 192.168.85.128, broadcast 192.168.85.191
+IP 192.168.85.129 /26(26*1)
+clase c 192.168.85
+255.255.255.11000000
+
+17.a) 64 subredes
+
+18.128 subredes y 510 host mezcla entre a y b
+
+20.d)255.255.254.0
+clase b 500 host por subred
+2^9=512
